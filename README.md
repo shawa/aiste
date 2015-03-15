@@ -13,7 +13,8 @@ chapters
 * Edit `meta/metadata.yaml` accordingly
 * run `make`
 
-To keep everything tidy, shove all your images in 
+To keep everything tidy, shove all your images in `img`.
+
 See the Pandoc documentation for citation syntax. Put your citations in `meta/biblio.bib`. 
 You can change the document type etc. by editing `meta/template.latex`.
 
