@@ -1,14 +1,14 @@
-outfile=essay.pdf
-infiles=$(shell ls chapters/*.md)
+outfile := essay.pdf
+infiles := $(shell ls chapters/*.md)
 
-pandoc_flags=--number-sections --toc --smart --standalone \
-			 --variable fontsize=8pt
-bib_file=meta/biblio.bib
-csl_file=meta/chicago-author-date.csl
-meta_file=meta/metadata.yaml
-footer_file=meta/footer.md
-latex_engine=pdflatex
-latex_template=meta/template.latex
+pandoc_flags:= --number-sections --toc --smart --standalone \
+			    --variable fontsize=8pt
+bib_file := meta/biblio.bib
+csl_file := meta/chicago-author-date.csl
+meta_file := meta/metadata.yaml
+footer_file := meta/footer.md
+latex_engine := pdflatex
+latex_template := meta/template.latex
 
 all: chapters meta
 	pandoc $(pandoc_flags)\
