@@ -1,5 +1,5 @@
 # Aiste
-A simple, barebones framework for writing essays/reports. This was born of what *I* find myself doing every time I have a report to write for college. Simply clone the repo and get writing.
+A simple, barebones yoke for writing essays/reports. This was born of what *I* find myself doing every time I have a report to write for college. Simply clone the repo and get writing.
 
 * Write your chapters as numbered [markdown](http://daringfireball.net/projects/markdown/syntax) files in `chapters`
 
