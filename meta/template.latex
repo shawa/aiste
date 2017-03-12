@@ -7,7 +7,7 @@ $endif$
 
 \renewcommand{\familydefault}{\sfdefault}
 
-\usepackage{inconsolata}
+% \usepackage{inconsolata}
 \usepackage{color}
 \usepackage{listings}
 \lstset{ %
