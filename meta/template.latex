@@ -51,6 +51,10 @@ $endif$
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
 
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
 $if(euro)$
   \usepackage{eurosym}
 $endif$
