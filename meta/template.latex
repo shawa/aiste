@@ -7,7 +7,6 @@ $endif$
 
 \renewcommand{\familydefault}{\sfdefault}
 
-\usepackage{inconsolata}
 \usepackage{color}
 \usepackage{listings}
 \lstset{ %
@@ -51,6 +50,10 @@ $endif$
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
 
 $if(euro)$
   \usepackage{eurosym}
