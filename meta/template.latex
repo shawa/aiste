@@ -205,6 +205,31 @@ $abstract$
 \end{abstract}
 $endif$
 
+\pagebreak
+
+\section*{\Huge{Declaration}}
+\vspace{1cm}
+I hereby declare that this project is entirely my own work and that it has not been submitted as an exercise for a degree at this or any other university.
+
+\vspace{1cm}
+I have read and I understand the plagiarism provisions in the General Regulations of the University Calendar for the current year, found at \url{http://www.tcd.ie/calendar}.
+\vspace{1cm}
+
+I have also completed the Online Tutorial on avoiding plagiarism `Ready Steady Write', located at
+\url{http://tcd-ie.libguides.com/plagiarism/ready-steady-write}.
+\vspace{3cm}
+
+Signed:~\rule{5cm}{0.3pt}\hfill Date:~\rule{5cm}{0.3pt}
+
+\pagebreak
+
+\section*{\Huge{Abstract}}
+A short summary of the problem investigated, the approach taken and the key findings. This should be around 400 words, or less.
+
+This should be on a separate page.
+
+\newpage
+
 $for(include-before)$
 $include-before$
 
