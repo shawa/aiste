@@ -1,8 +1,14 @@
 ---
 author: 'Andrew Shaw'
+student_id: 11223344
 title: 'Aiste'
 subtitle: 'An exploration through make and time'
 date: '\today'
 abstract: 'A barebones essay-writing framework  using GNU `make` and `pandoc` is introduced. The framework is placed under version control and given a trendy name on a public GitHub repository. The framework is used many times over by undergraduates the world over.'
 banner: "img/trinity.png"
+degree: 'BA (Computer Science)'
+doc_type: 'Final Year Project'
+keywords: 'aiste fyp thesis'
+school_website: 'http://www.scss.tcd.ie'
+school_name: 'School of Computer Science and Statistics'
 ...
