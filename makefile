@@ -2,7 +2,7 @@ outfile := essay.pdf
 infiles := $(shell ls chapters/*.md)
 
 pandoc_flags:= --number-sections --toc -f markdown+smart --standalone \
-			    --variable fontsize=8pt
+			    --variable fontsize=12pt
 bib_file := meta/biblio.bib
 csl_file := meta/chicago-author-date.csl
 meta_file := meta/metadata.yaml
