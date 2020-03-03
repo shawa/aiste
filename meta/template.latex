@@ -55,6 +55,7 @@ $endif$
 
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
+\usepackage[pdftex]{graphicx}
 \usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
@@ -183,7 +184,8 @@ $if(verbatim-in-note)$
 $endif$
 
 $if(title)$
-\title{$title$$if(subtitle)$\\\vspace{0.5em}{\large $subtitle$}$endif$}
+\title{$if(banner)${\includegraphics{$banner$}}\\\vspace{0.5em}$endif$
+$title$$if(subtitle)$\\\vspace{0.5em}{\large $subtitle$}$endif$}
 $endif$
 $if(author)$
 \author{$for(author)$$author$$sep$ \and $endfor$}
