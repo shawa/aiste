@@ -196,9 +196,30 @@ $header-includes$
 $endfor$
 
 \begin{document}
-$if(title)$
-\maketitle
-$endif$
+%% TITLE PAGE
+\begin{titlepage}
+    \center
+
+    %% LOGO SECTION
+    \includegraphics{$banner$}
+    \Large \href{$schoolwebsite$}{$schoolname$}
+
+    %% TITLE SECTION
+    \makeatletter{ \huge \bfseries $title$}\\[1.5cm]
+
+    %% AUTHOR SECTION
+    $author$\\
+    $studentid$\\[2cm]
+
+    %% DATE SECTION
+    {\large \today}\\[2cm]
+
+    %% TYPE OF THESIS SECTION
+    A $doctype$ submitted in partial fulfilment\\of the requirements for the
+    degree of\\$degree$
+
+    \vfill
+\end{titlepage}
 $if(abstract)$
 \begin{abstract}
 $abstract$
