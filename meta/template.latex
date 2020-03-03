@@ -11,6 +11,15 @@
 %% Bibliographical Stuff
 \usepackage[round,sort,comma,numbers]{natbib}
 
+$if(csl-refs)$
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{cslreferences}%
+{$if(csl-hanging-indent)$\setlength{\parindent}{0pt}%
+\everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces$endif$}%
+{\par}
+$endif$
+
 %% Useful Packages
 \usepackage{amsmath}
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
@@ -96,4 +105,7 @@ You should acknowledge any help that you have received (for example from technic
 \newpage
 
 \mainmatter
+
+$body$
+
 \end{document}
