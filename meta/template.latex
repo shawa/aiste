@@ -204,7 +204,6 @@ $if(abstract)$
 $abstract$
 \end{abstract}
 $endif$
-
 \pagebreak
 
 \section*{\Huge{Declaration}}
@@ -227,8 +226,15 @@ Signed:~\rule{5cm}{0.3pt}\hfill Date:~\rule{5cm}{0.3pt}
 A short summary of the problem investigated, the approach taken and the key findings. This should be around 400 words, or less.
 
 This should be on a separate page.
+\pagebreak
 
-\newpage
+\raggedright %\raggedright turns off justification and hypenation
+
+\section*{\Huge{Acknowledgements}}
+Thanks Mum!
+
+You should acknowledge any help that you have received (for example from technical staff), or input provided by, for example, a company.
+\pagebreak
 
 $for(include-before)$
 $include-before$
